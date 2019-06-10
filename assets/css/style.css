@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Oswald|roboto&display=swap');
+
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------------------------------- colors*/
+
+.navigation-color,
+.footer-color {
+    background-color: #112327;
+}
+
+/*--------------------------------------------------------------------- common classes*/
+
+.audio-heading,
+.video-heading {
+
+    text-align: center;
+    color: #112327;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Monoton', sans-serif;
+}
+
+.book-us-heading,
+.photos-heading,
+.about-heading {
+    text-align: center;
+    color: #fafafa;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Monoton', sans-serif;
+}
+
+.headings-underline-white {
+    margin: 0 auto;
+    background-color: #fafafa;
+    text-align: center;
+
+    height: 5px;
+    width: 65px;
+}
+
+.headings-underline {
+    margin: 0 auto;
+    background-color: #112327;
+    text-align: center;
+
+    height: 5px;
+    width: 65px;
+
+}
+
+/*--------------------------------------------------------------------- navigation*/
+
+.navbar a {
+    font-family: 'oswald', sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.navbar .brand-name {
+    font-family: 'Monoton', sans-serif;
+    font-size: 22px;
+}
+
+.menu-item-format a {
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.4s ease-in-out;
+}
+
+.dropdown-menu {
+    background-color: #112327;
+    color: #fafafa;
+
+}
+
+.dropdown-menu a {
+
+    text-align: left;
+}
+
+@media(min-width:992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}
+
+
+.toggle-icon-format {
+    font-size: 30px;
+    color: #fafafa;
+}
+
+/*-------------------------------------------------------------------------------hover effect*/
+
+#navbarNavDropdown a:hover {
+    color: #8c8c8c;
+}
+
+
+#navbarNavDropdown .dropdown-menu a:hover {
+    color: #8c8c8c;
+    background-color: #112327;
+}
+
+
+
+/*-------------------------------------------------------------------------------main page*/
+
+.image-format {
+    margin-left: 0;
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
+@media(min-width:1030px) {
+    .image-format {
+        margin-top: 20px;
+        height: 100%;
+    }
+}
+
+/*-------------------------------------------------------------------------------audio*/
+
+.audio-container {
+
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-image: url("../images/audio-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.audio-size {
+    background-size: contain;
+}
+
+.audio-container .col-12,
+.audio-container .col-md-4,
+.audio-container .col-lg-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 55px;
+}
+
+#audio .row {
+    padding-bottom: 25px;
+}
+
+/*--------------------------------------------------------------------- video*/
+
+.video-container {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-image: url("../images/vid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#video div iframe {
+    padding-top: 50px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+/*--------------------------------------------------------------------- book us*/
+
+.book-us-container {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-image: url("../images/vid7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.text-format {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    color: #fafafa;
+    text-align: center;
+    font-size: 15px
+}
+
+.book-us-form {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.book-us-form form input {
+    margin-bottom: 10px;
+}
+
+.customised-button {
+    border: 2px solid #fafafa;
+    border-radius: 16px;
+    background-color: #000000;
+    padding: 8px 50px;
+    font-weight: 700;
+    color: #fafafa;
+    font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------------photos*/
+
+.photos-container {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-image: url("../images/photos-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover {
+    background-size: cover;
+}
+
+
+#photos .photo-spacing {
+    margin-top: 50px;
+}
+
+/*-------------------------------------------------------------------------------about*/
+
+.about-container {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-image: url("../images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-spacing {
+    margin-top: 25px;
+}
+
+.about-para {
+    color: #fafafa;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+
+/*-------------------------------------------------------------------------------footer*/
+
+.update-heading {
+    text-align: center;
+    color: #fafafa;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+    word-spacing: 12px;
+    letter-spacing: 2px;
+    font-family: 'Monoton', sans-serif;
+}
+
+.signup-format {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.sign-up-email {
+    max-width: 100%;
+
+}
+
+.customised-button2 {
+    margin-left: 35%;
+    margin-top: 5px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+@media(min-width:768px) {
+    .signup-format {
+        max-width: 50%;
+
+    }
+    .sign-up-email {
+        display: inline-block;
+        max-width: 70%;
+
+    }
+    .customised-button2 {
+        margin: 0;
+
+    }
+
+}
+
+.icon-format {
+    font-size: 35px;
+    color: #fafafa;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    transition: color 0.4s ease-in-out;
+}
+
+.icon-format:hover {
+    color: #737373;
+}

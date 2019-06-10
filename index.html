@@ -29,27 +29,28 @@
                             music
                     </a>
                     <div class="dropdown-menu" aria-labelledby="DropDownMenu">
-                        <a href="audio.html" class="dropdown-item">Audio</a>
-                        <a href="video.html" class="dropdown-item">Video</a>
+                        <a href="#audio" class="dropdown-item">Audio</a>
+                        <a href="#video" class="dropdown-item">Video</a>
                     </div>
                 </li>
-
-                <li class="nav-item menu-item-format">
-                    <a href="bookUs.html" class="nav-link">book us</a>
-                </li>
                 <li class="nav-item  active menu-item-format ">
-                    <a href="index.html" class="nav-link">photos</a>
+                    <a href="#photos" class="nav-link">photos</a>
                 </li>
+                <li class="nav-item menu-item-format">
+                    <a href="#book-us" class="nav-link">book us</a>
+                </li>
+
                 <li class="nav-item menu-item-format ">
-                    <a href="about.html" class="nav-link">about</a>
+                    <a href="#about" class="nav-link">about</a>
                 </li>
             </ul>
         </div>
     </nav>
-
+    <!--Homepage -->
     <section id="home">
         <img src="assets/images/main.jpg" class="image-format" alt="linkin park">
     </section>
+    <!--Audio page -->
     <section id="audio" class="audio-container">
         <div class="container-fluid">
             <h2 class="audio-heading">Audio</h2>
@@ -89,20 +90,174 @@
                     <iframe src="https://open.spotify.com/embed/track/3aYBjxTMvrEOP0A0UXg9ER" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
+        </div>
     </section>
+    <!--Video Page -->
     <section id="video" class="video-container">
         <div class="container-fluid text-left">
             <h2 class="video-heading">Video</h2>
             <div class="headings-underline"></div>
-<iframe width="760" height="515" src="https://www.youtube.com/embed/videoseries?list=RDEMww6ZEHgLhQ-8eu_x7Z-FJw&start_radio=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="row">
+                <div class="col-1 d-md-none"></div>
+                <div class="col-sm-10 overflow">
+                    <iframe width="760" height="550" src="https://www.youtube.com/embed/videoseries?list=RDEMww6ZEHgLhQ-8eu_x7Z-FJw&start_radio=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-1"></div>
+            </div>
         </div>
     </section>
-    <section id="book-us">
-        <form>
-            <input type="text" id="fullname" name="name" class="form-control" 
-        </form>
-    </section>
+    <!--Photos Page -->
+    <section id="photos" class="photos-container">
+        <div class="container-fluid">
+            <h2 class="photos-heading">photos</h2>
+            <div class="headings-underline-white"></div>
+            <div class="row photo-spacing">
 
+                <div class="col-sm-3">
+                    <a class="d-block mb-4 h-100">
+                    <img class="img-fluid img-hover" src="assets/images/gallery5.jpg" data-toggle="modal" data-target="#pic1" alt="Linkin-park">
+                    </a>
+                    <div class="modal fade" id="pic1" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-body">
+                                <img class="img-fluid " src="assets/images/gallery5.jpg" alt="Linkin-park">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <a class="d-block mb-4 h-100">
+                    <img class="img-fluid img-hover" src="assets/images/gallery6.png" data-toggle="modal" data-target="#pic2" alt="Linkin-park">
+                    </a>
+                    <div class="modal fade" id="pic2" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-body">
+                                <img class="img-fluid " src="assets/images/gallery6.png" alt="Linkin-park">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <a class="d-block mb-4 h-100">
+                    <img class="img-fluid img-hover" src="assets/images/gallery7.jpg" data-toggle="modal" data-target="#pic3" alt="Linkin-park">
+                    </a>
+                    <div class="modal fade" id="pic3" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-body">
+                                <img class="img-fluid " src="assets/images/gallery7.jpg" alt="Linkin-park">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-3">
+                    <a class="d-block mb-4 h-100">
+                    <img class="img-fluid img-hover" src="assets/images/gallery2.jpg" data-toggle="modal" data-target="#pic4" alt="Linkin-park">
+                    </a>
+                    <div class="modal fade" id="pic4" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-body">
+                                <img class="img-fluid" src="assets/images/gallery2.jpg" alt="Linkin-park">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Book Us Page -->
+    <section id="book-us" class="book-us-container">
+        <h2 class="book-us-heading">Book us</h2>
+        <div class="headings-underline-white"></div>
+        <div class="text-format">fill the form below to check our availability</div>
+        <div class="book-us-form">
+            <form onsubmit="myFunction()">
+                <input type="text" id="fullname" name="name" class="form-control" placeholder="Name" required/>
+                <input type="email" id="email-id" name="email" class="form-control" placeholder="Email Id" required/>
+                <input type="text" id="event-type" name="event" class="form-control" placeholder="Event example:wedding" required/>
+                <input type="date" id="event-date" name="date" class="form-control" placeholder="Event Date" required/>
+                <div class="row">
+                    <div class="col text-center">
+                        <button type="submit" class="btn customised-button">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--About Page -->
+    <section id="about" class="about-container">
+        <div class="container-fluid ">
+            <h2 class="about-heading">about</h2>
+            <div class="headings-underline-white"></div>
+            <div class="row ">
+                <div class="col-12 col-lg-6 about-spacing">
+                    <p class="about-para">
+                        Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell, DJ/keyboardist Joe Hahn, and drummer Rob Bourdon, all of
+                        whom are founding members. Former members include bassist Kyle Christner and vocalists Mark Wakefield and Chester Bennington
+                    </p>
+                    <p class="about-para">
+                        Formed in 1996, Linkin Park rose to international fame with its debut studio album, Hybrid Theory (2000), which was certified diamond by the RIAA in 2005, and multi-platinum in several other countries. Its second album, Meteora (2003), continued the band's
+                        success, topping the Billboard 200 album chart in 2003, and was followed by extensive touring and charity work. Having adapted nu metal and rap metal to a radio-friendly yet densely layered style in its first two albums, the band
+                        explored other genres on its third album, Minutes to Midnight (2007). The album topped the Billboard charts and had the third-best debut week of any album that year.
+                    </p>
+                    <p class="about-para">
+                        Linkin Park continued to explore a wider variation of musical types in its fourth album, A Thousand Suns (2010), layering their music with more electronic sounds. The band's fifth album, Living Things (2012), combined musical elements from all of its
+                        previous records. Its sixth album, The Hunting Party (2014), returned to a heavier rock sound, and its seventh album, One More Light (2017), was a more electronic and pop-oriented record.
+                    </p>
+                    <p class="about-para">
+                        In 2003, MTV2 named Linkin Park the sixth-greatest band of the music video era and the third-best of the new millennium. Billboard ranked Linkin Park No. 19 on the Best Artists of the Decade chart. In 2012, the band was voted as the greatest artist of
+                        the 2000s in a Bracket Madness poll on VH1. In 2014, the band was declared as the Biggest Rock Band in the World Right Now by Kerrang!. As the best-selling band of the 21st century and one of the world's best-selling music artists
+                        overall, Linkin Park has sold more than 70 million albums worldwide and has won two Grammy Awards.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer-color">
+
+        <div class="container-fluid ">
+            <h2 class="update-heading">stay updated with the latest news</h2>
+            <div class="row">
+                <div class="col signup-format">
+                    <form onsubmit="myFunction2()">
+                        <input type="email" id="sign-up-email" name="sign-up-email-id" class="form-control sign-up-email" placeholder="Email Id" required/>
+                        <button type="submit" class="customised-button2">Sign up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="https://www.facebook.com/linkinpark/"  target="_blank">    <i class="fab fa-facebook-f icon-format"></i></a>
+                    <a href="https://twitter.com/linkinpark" target="_blank">    <i class="fab fa-twitter icon-format"></i></a>
+                    <a href="https://www.youtube.com/user/linkinparktv"  target="_blank">   <i class="fab fa-youtube icon-format"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script to display thank you message -->
+    <script type="text/javascript">
+        function myFunction() {
+            if (confirm('Thank You! A confirmation email will be sent to you shortly')) {
+
+            }
+        }
+
+        function myFunction2() {
+            if (confirm('THANK YOU! for subscribing')) {
+
+            }
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
