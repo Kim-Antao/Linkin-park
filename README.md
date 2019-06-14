@@ -70,7 +70,7 @@ the project was added to git repository in sections.
 it was deployed twice. the first time when the project was completed but README.md was incomplete. second time, after updating the README.md file. The following process was followed:
 -create a new repository.
 -use the link and push the files from git to github.
--click on the link (https://vfs.cloud9.eu-west-1.amazonaws.com/vfs/9a2ae5747a104678aa503f180b713e35/preview/index.html) to view the output
+-click on the link (https://kim-antao.github.io/Linkin-park/.) to view the output
 
 
 Credits
