@@ -55,36 +55,24 @@
         <div class="container-fluid">
             <h2 class="audio-heading">Audio</h2>
             <div class="headings-underline"></div>
-            <div class="row">
-                <div class="d-none d-md-block col-md-1">
-                </div>
+            <div class="row d-flex justify-content-around">
                 <div class="col-12 col-md-4 col-lg-3 text-center">
                     <iframe src="https://open.spotify.com/embed/track/60a0Rd6pjrkxjPbaKzXjfq" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
-                <div class="d-none d-md-block col-md-2 col-lg-1">
-                </div>
                 <div class="d-none d-md-block col-md-4 col-lg-3 text-center">
                     <iframe src="https://open.spotify.com/embed/track/18lR4BzEs7e3qzc0KVkTpU" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-                <div class="d-none d-md-block col-md-1">
                 </div>
                 <div class="d-none d-lg-block col-lg-3 text-center">
                     <iframe src="https://open.spotify.com/embed/track/5sNESr6pQfIhL3krM8CtZn" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
 
             </div>
-            <div class="row">
-                <div class="d-none d-md-block col-md-1">
-                </div>
+            <div class="row d-flex justify-content-around">
                 <div class="col-12 col-md-4 col-lg-3 text-center">
                     <iframe src="https://open.spotify.com/embed/track/2nLtzopw4rPReszdYBJU6h" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
-                <div class="d-none d-md-block col-md-2 col-lg-1">
-                </div>
                 <div class="d-none d-md-block col-md-4 col-lg-3 text-center">
                     <iframe src="https://open.spotify.com/embed/track/3FQCJI2t5LTbsRPfYVBSVB" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-                <div class="d-none d-md-block col-md-1">
                 </div>
                 <div class="d-none d-lg-block col-lg-3 text-center">
                     <iframe src="https://open.spotify.com/embed/track/3aYBjxTMvrEOP0A0UXg9ER" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -94,16 +82,16 @@
     </section>
     <!--Video Page -->
     <section id="video" class="video-container">
-        <div class="container-fluid text-left">
+        <div class="container-fluid">
             <h2 class="video-heading">Video</h2>
             <div class="headings-underline"></div>
-            <div class="row">
-                <div class="col-1 d-md-none"></div>
-                <div class="col-sm-10 overflow">
-                    <iframe width="760" height="550" src="https://www.youtube.com/embed/videoseries?list=RDEMww6ZEHgLhQ-8eu_x7Z-FJw&start_radio=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-1"></div>
-            </div>
+        <!--    <div class="row ">
+                <div class="col-sm-auto overflow">-->
+                <div class="vid_wrapper">
+                    <iframe  src="https://www.youtube.com/embed/videoseries?list=RDEMww6ZEHgLhQ-8eu_x7Z-FJw&start_radio=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <!--    </div>
+            </div>-->
         </div>
     </section>
     <!--Photos Page -->
@@ -111,7 +99,7 @@
         <div class="container-fluid">
             <h2 class="photos-heading">photos</h2>
             <div class="headings-underline-white"></div>
-            <div class="row photo-spacing">
+            <div class="row photo-spacing d-flex justify-content-around">
 
                 <div class="col-sm-3">
                     <a class="d-block mb-4 h-100">
@@ -198,7 +186,7 @@
             <h2 class="about-heading">about</h2>
             <div class="headings-underline-white"></div>
             <div class="row ">
-                <div class="col-12 col-lg-6 about-spacing">
+                <div class="col-12 about-spacing">
                     <p class="about-para">
                         Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell, DJ/keyboardist Joe Hahn, and drummer Rob Bourdon, all of
                         whom are founding members. Former members include bassist Kyle Christner and vocalists Mark Wakefield and Chester Bennington
@@ -222,7 +210,7 @@
 
         </div>
     </section>
-    <footer class="footer-color">
+    <footer id="foot" class="footer-color">
 
         <div class="container-fluid ">
             <h2 class="update-heading">stay updated with the latest news</h2>
@@ -236,9 +224,14 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a href="https://www.facebook.com/linkinpark/"  target="_blank">    <i class="fab fa-facebook-f icon-format"></i></a>
+                    <a href="https://www.facebook.com/linkinpark/" target="_blank">    <i class="fab fa-facebook-f icon-format"></i></a>
                     <a href="https://twitter.com/linkinpark" target="_blank">    <i class="fab fa-twitter icon-format"></i></a>
-                    <a href="https://www.youtube.com/user/linkinparktv"  target="_blank">   <i class="fab fa-youtube icon-format"></i></a>
+                    <a href="https://www.youtube.com/user/linkinparktv" target="_blank">   <i class="fab fa-youtube icon-format"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <small>(c) Copyright 2019 by Kimberley Antao. All Rights Reserved</small>
                 </div>
             </div>
         </div>

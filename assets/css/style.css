@@ -39,6 +39,10 @@ body {
     font-family: 'Monoton', sans-serif;
 }
 
+.book-us-heading {
+    word-spacing: 17px;
+}
+
 .headings-underline-white {
     margin: 0 auto;
     background-color: #fafafa;
@@ -167,21 +171,37 @@ body {
 /*--------------------------------------------------------------------- video*/
 
 .video-container {
-    padding-top: 25px;
     padding-bottom: 45px;
-    background-image: url("../images/vid.jpg");
+    background-image: url("../images/vid_back.png");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #video div iframe {
     padding-top: 50px;
 }
 
-.overflow {
-    overflow: hidden;
+.vid_wrapper {
+
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
 }
+
+.vid_wrapper iframe {
+    position: absolute;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 80%;
+    height: 80%;
+}
+
+
 
 /*--------------------------------------------------------------------- book us*/
 
@@ -242,12 +262,18 @@ body {
     margin-top: 50px;
 }
 
+#photos .row .col-sm-3,
+#photos .row .col-md-3 {
+    text-align: center;
+}
+
 /*-------------------------------------------------------------------------------about*/
 
 .about-container {
     padding-top: 25px;
     padding-bottom: 45px;
-    background-image: url("../images/about.jpg");
+   background-image: url("../images/about.jpg");
+   /* background-image: url("../images/gallery1.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -255,17 +281,21 @@ body {
 .about-spacing {
     margin-top: 25px;
 }
-
 .about-para {
     color: #fafafa;
     text-align: justify;
     font-size: 20px;
+    padding-left:10px;
+    padding-right:10px;
+ font-weight:500;
 }
 
 
 
 /*-------------------------------------------------------------------------------footer*/
-
+#foot{
+    padding-bottom:20px;
+}
 .update-heading {
     text-align: center;
     color: #fafafa;
@@ -325,4 +355,8 @@ body {
 
 .icon-format:hover {
     color: #737373;
+}
+
+small{
+  color:#fafafa;  
 }
